@@ -104,7 +104,7 @@ int main() {
     //alocacao da matriz incidencia
     int **matInc = new int*[numVertices];//alocando linhas (vertices)
     for (int i = 0; i < numVertices; i++) {
-        matInc[i] = new int[numArestas];//alocando colunas (arestas)
+        matInc[i] = new int[numArestas]();//alocando colunas (arestas)
     }
 
     //alocacao da matriz de adjacencia
@@ -113,24 +113,24 @@ int main() {
         matAdj[i] = new int[numVertices]();//alocando colunas
     }
 
-    /*
-    //zerando matriz de adjacencia
-    for (int i = 0; i < numVertices; i++) {
-        for (int j = 0; j < numVertices; j++) {
-            matAdj[i][j] = 0;
-        }
-    }*/
 
     for (int i = 0; i < numArestas; i++) {
-        for (int j = 0; j < numVertices; j++) {
-            do {
-                cout << "digite a na posicao [" << j+1 << "][" << i+1 <<"]" << endl;
-                cout << "use (-1) para chegada da aresta no vertice, (1) para saida da aresta no vertice ou (2) para laco: ";
-                cin >> matInc[j][i];
-                if (matInc[j][i] != -1 && matInc[j][i] != 1 && matInc[j][i] != 0 && matInc[j][i] != 2) {
-                    cout << "numero invalido!";
-                }
-            }while (matInc[j][i] != -1 && matInc[j][i] != 1 && matInc[j][i] != 0 && matInc[j][i] != 2);
+        int indiceSaida = 0;
+        int indiceChegada = 0;
+        do {
+            cout << "digite o vestice de saida da aresta: ";
+            cin >> indiceSaida;
+            cout << "digite o vertice de chegada da aresta: ";
+            cin >> indiceChegada;
+            if (indiceSaida < 1 || indiceSaida > numVertices || indiceChegada < 1 || indiceChegada > numVertices) {
+                cout << "numero invalido!" << endl;
+            }
+        }while (indiceSaida < 1 || indiceSaida > numVertices || indiceChegada < 1 || indiceChegada > numVertices);
+        if (indiceSaida != indiceChegada) {
+            matInc[--indiceSaida][i] = 1;
+            matInc[--indiceChegada][i] = -1;
+        }else {
+            matInc[--indiceSaida][i] = 2;
         }
     }
 
