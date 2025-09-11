@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc3fe953-9a6e-4531-8595-9c4562389469" name="Changes" comment="adicionado ex-03 sobre listas de adjacencia">
+      <change afterPath="$PROJECT_DIR$/exercicios/ex-04.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios/ex-03.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios/ex-03.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kaeliton09&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kaeliton09/Estudos-Faculdade.git&quot;,
+    &quot;accountId&quot;: &quot;fa89d6ac-ef78-4aa9-8b84-5fb5492d3e37&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="31ZD3502maeWRM5Stt2VjqUtWFZ" />
+  <component name="ProjectStatusUIService">{
+  &quot;uiKindId&quot;: &quot;Widget&quot;
+}</component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.ex-01.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ex-01.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ex-02.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ex-03.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ex-04.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.teste.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.teste.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="C/C++ File.ex-04.cpp">
+    <configuration default="true" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Grafos" TARGET_NAME="C/C++ File" CONFIG_NAME="C/C++ File">
+      <option name="sourceFile" value="C:\Users\K4eliton\Desktop\Faculdade\Grafos\exercicios\ex-03.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex-01.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Grafos" TARGET_NAME="ex-01.cpp" CONFIG_NAME="ex-01.cpp">
+      <option name="sourceFile" value="C:\Users\K4eliton\Desktop\Faculdade\Grafos\exercicios\ex-01.cpp" />
+      <option name="toolchainName" value="MinGW" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex-02.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Grafos" TARGET_NAME="ex-02.cpp" CONFIG_NAME="ex-02.cpp">
+      <option name="sourceFile" value="C:\Users\K4eliton\Desktop\Faculdade\Grafos\exercicios\ex-02.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex-03.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Grafos" TARGET_NAME="ex-03.cpp" CONFIG_NAME="ex-03.cpp">
+      <option name="sourceFile" value="C:\Users\K4eliton\Desktop\Faculdade\Grafos\exercicios\ex-03.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex-04.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Grafos" TARGET_NAME="ex-04.cpp" CONFIG_NAME="ex-04.cpp">
+      <option name="sourceFile" value="C:\Users\K4eliton\Desktop\Faculdade\Grafos\exercicios\ex-04.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.ex-04.cpp" />
+      <item itemvalue="C/C++ File.ex-01.cpp" />
+      <item itemvalue="C/C++ File.ex-03.cpp" />
+      <item itemvalue="C/C++ File.ex-02.cpp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.ex-02.cpp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc3fe953-9a6e-4531-8595-9c4562389469" name="Changes" comment="" />
+      <created>1755722502753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755722502753</updated>
+      <workItem from="1755722505192" duration="5437000" />
+      <workItem from="1755776698831" duration="4748000" />
+      <workItem from="1755811251489" duration="3100000" />
+      <workItem from="1755857286086" duration="723000" />
+      <workItem from="1755858045715" duration="2557000" />
+      <workItem from="1756288385444" duration="3788000" />
+      <workItem from="1756421679990" duration="2983000" />
+      <workItem from="1756462177909" duration="4518000" />
+      <workItem from="1756506716116" duration="599000" />
+      <workItem from="1756809486510" duration="1045000" />
+      <workItem from="1756994392414" duration="3240000" />
+      <workItem from="1757066564031" duration="3110000" />
+      <workItem from="1757606252047" duration="311000" />
+    </task>
+    <task id="LOCAL-00001" summary="adicionado ex-03 sobre listas de adjacencia">
+      <option name="closed" value="true" />
+      <created>1756424637498</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756424637498</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adicionado ex-03 sobre listas de adjacencia" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionado ex-03 sobre listas de adjacencia" />
+  </component>
+</project>

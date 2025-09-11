@@ -24,31 +24,33 @@ int main() {
     }
 
     for (int i = 0; i < quantidadeVertices; i++) {
-        int quantidadeAdjacent = 0;
-        do {
-            cout << "digite a quantidade de vertices adjacentes ao vertice [" << i+1 <<"]:  ";
-            cin >> quantidadeAdjacent;
-            if (quantidadeAdjacent < 0 || quantidadeAdjacent > quantidadeVertices) {
-                cout << "quantidade de vertices adjacentes invalida!" << endl;
+        int adjacente = 1;
+        while (adjacente != -1) {
+            bool jacontem = false;
+            cout << "digite o vertice adjacente a (-1 para parar) " << i+1 << " : ";
+            cin >> adjacente;
+            if (adjacente == -1) {
+                break;
             }
-        }while (quantidadeAdjacent < 0 || quantidadeAdjacent > quantidadeVertices);
-
-        for (int j = 0; j < quantidadeAdjacent; j++) {
-            int adjacente = 0;
-            do {
-                cout << "digite o vertice adjacente a " << i+1 << " : ";
-                cin >> adjacente;
-                if (adjacente < 1 || adjacente > quantidadeVertices) {
-                    cout << "vertice adjacente invalido!" << endl;
-                }
-            }while (adjacente < 1 || adjacente > quantidadeVertices);
-            vertices[i].push_back(adjacente);
+            if ((adjacente < 1 || adjacente > quantidadeVertices)) {
+                cout << "vertice adjacente invalido!" << endl;
+                continue;
+            }
+            for (int j = 0; j < vertices[i].size(); j++) {
+                if (adjacente == vertices[i][j]) {jacontem = true;}
+            }
+            if (jacontem) {
+                cout << "vertice adjacente invalido (ja esta na lista)!" << endl;
+                continue;
+            }
+            if (!jacontem) vertices[i].push_back(adjacente);
         }
     }
 
     cout << "- - - LISTAS DE ADJACENCIAS - - -" << endl;
     for (int i = 0; i < quantidadeVertices; i++) {
         cout << i+1 << "| ";
+        sort(vertices[i].begin(), vertices[i].end());
         for (int j = 0; j < vertices[i].size(); j++) {
             cout << vertices[i][j] << " ";
             matAdj[i][--vertices[i][j]] = 1;
