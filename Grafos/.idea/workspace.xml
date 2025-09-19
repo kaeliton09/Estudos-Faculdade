@@ -16,8 +16,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3fe953-9a6e-4531-8595-9c4562389469" name="Changes" comment="adicionado ex-03 sobre listas de adjacencia">
-      <change afterPath="$PROJECT_DIR$/exercicios/ex-05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/ex-06.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-05.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ex-05.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios/ex-05.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios/ex-05.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +66,7 @@
     "C/C++ File.ex-03.cpp.executor": "Run",
     "C/C++ File.ex-04.cpp.executor": "Run",
     "C/C++ File.ex-05.cpp.executor": "Run",
+    "C/C++ File.ex-06.cpp.executor": "Run",
     "C/C++ File.teste.cpp.executor": "Run",
     "C/C++ File.teste.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -84,7 +87,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ File.ex-05.cpp">
+  <component name="RunManager" selected="C/C++ File.ex-06.cpp">
     <configuration default="true" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Grafos" TARGET_NAME="C/C++ File" CONFIG_NAME="C/C++ File">
       <option name="sourceFile" value="C:\Users\K4eliton\Desktop\Faculdade\Grafos\exercicios\ex-03.cpp" />
       <method v="2">
@@ -122,7 +125,14 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex-06.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Grafos" TARGET_NAME="ex-06.cpp" CONFIG_NAME="ex-06.cpp">
+      <option name="sourceFile" value="C:\Users\K4eliton\Desktop\Faculdade\Grafos\exercicios\ex-06.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="C/C++ File.ex-06.cpp" />
       <item itemvalue="C/C++ File.ex-04.cpp" />
       <item itemvalue="C/C++ File.ex-05.cpp" />
       <item itemvalue="C/C++ File.ex-01.cpp" />
@@ -154,7 +164,10 @@
       <workItem from="1756809486510" duration="1045000" />
       <workItem from="1756994392414" duration="3240000" />
       <workItem from="1757066564031" duration="3110000" />
-      <workItem from="1757606252047" duration="4306000" />
+      <workItem from="1757606252047" duration="4456000" />
+      <workItem from="1757633377170" duration="674000" />
+      <workItem from="1757672192251" duration="2598000" />
+      <workItem from="1758279044964" duration="1330000" />
     </task>
     <task id="LOCAL-00001" summary="adicionado ex-03 sobre listas de adjacencia">
       <option name="closed" value="true" />

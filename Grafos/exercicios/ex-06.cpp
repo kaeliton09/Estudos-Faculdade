@@ -30,40 +30,22 @@ bool isSimples(vector<vector<int> > & grafo, int numeroVertices) {
     return true;
 }
 
-//funcao para verficar se o grafo é um ciclo
-bool isCiclo(vector<vector<int> > & grafo, int numeroVertices) {
-    if (numeroVertices < 3) return false;
+//funcao para verificar se o grafo e um ciclo euleriano
+bool isCicloEulerino(vector<vector<int> > & grafo, int numeroVertices) {
     for (int i = 0; i < numeroVertices; i++) {
-        if (grafo[i].size() != 2) return false;
+        if (grafo[i].size() % 2 != 0) return false;
     }
     return true;
 }
 
-//funcao para verificar se o grafo é completo
-bool isCompleto(vector<vector<int> > & grafo, int numeroVertices) {
-    int grauEsperado = numeroVertices -1;
+//funcao para verificar se o grafo e um caminho euleriano
+bool isCaminhoEureliano(vector<vector<int> > & grafo, int numeroVertices) {
+    int quantidadeDeGrausImpares = 0;
     for (int i = 0; i < numeroVertices; i++) {
-        if (grafo[i].size() != grauEsperado) return false;
+        if (grafo[i].size() % 2 != 0) quantidadeDeGrausImpares++;
     }
+    if (quantidadeDeGrausImpares != 2) return false;
     return true;
-}
-
-//funcao para verificar se o grafo é roda
-bool isRoda(vector<vector<int> > & grafo, int numeroVertices) {
-    if (numeroVertices < 4) return false;
-    if (numeroVertices == 4) {//o grafo so é roda se for completo
-        if (isCompleto(grafo, numeroVertices)) return true;
-        return false;
-    }else {
-        int numeroVerticesGrauMinino = numeroVertices - 1;
-        int numeroVerticesGraumaximo = 0;
-        for (int i = 0; i < numeroVertices; i++) {
-            if (grafo[i].size() == 3) numeroVerticesGrauMinino--;
-            if (grafo[i].size() == numeroVertices-1) numeroVerticesGraumaximo++;
-        }
-        if (numeroVerticesGraumaximo == 1 && numeroVerticesGrauMinino == 0) return true;
-        return false;
-    }
 }
 
 int main() {
@@ -107,9 +89,8 @@ int main() {
         }
     }
     if (isSimples(grafo, numeroVertices)) {
-        if (isCiclo(grafo, numeroVertices)) cout << "o grafo eh um ciclo." << endl;
-        if (isCompleto(grafo, numeroVertices)) cout << "o grafo eh um completo." << endl;
-        if (isRoda(grafo, numeroVertices)) cout << "o grafo eh uma roda." << endl;
+        if (isCicloEulerino(grafo, numeroVertices)) cout << "Ciclo eulerino!" << endl;
+        if (isCaminhoEureliano(grafo, numeroVertices)) cout << "Caminho eulerino!" << endl;
     }else cout << "o grafo nao eh simples." << endl;
 
 
